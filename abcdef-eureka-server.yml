@@ -21,7 +21,7 @@ eureka:
     serviceUrl:
       defaultZone: http://www.eureka7002.com:7002/eureka/
 spring:
-  profiles：dev
   application:
     name: eureka-server
+  profiles: dev
 
